@@ -1,0 +1,42 @@
+{
+  "name": "react_marvel_app_ts",
+  "version": "1.0.0",
+  "description": "react marvel application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server  --mode development --inline --hot --open",
+    "build": "webpack  --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victoralfonsoperez/react_marvel_app_ts.git"
+  },
+  "keywords": [
+    "react",
+    "marvel"
+  ],
+  "author": "victor perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoralfonsoperez/react_marvel_app_ts/issues"
+  },
+  "homepage": "https://github.com/victoralfonsoperez/react_marvel_app_ts#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.3",
+    "typescript": "^3.8.3",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
